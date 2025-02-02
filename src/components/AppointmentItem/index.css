@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.each-appointment-item {
+  list-style-type: none;
+   display: flex;
+  flex-direction: column;
+}
+.appointment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-title {
+  color: #171f46;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.appointment-date {
+  color: #b5b7c4;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
