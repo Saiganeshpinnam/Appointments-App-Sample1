@@ -4,8 +4,6 @@ import {Component} from 'react'
 
 import './index.css'
 
-import {format} from 'date-fns'
-
 import {v4 as uuidv4} from 'uuid'
 
 import AppointmentItem from '../AppointmentItem'
@@ -119,6 +117,7 @@ class Appointments extends Component {
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/appointments-app/appointments-img.png"
                   className="appointments-img"
+                  alt="appointments"
                 />
               </div>
             </div>
@@ -135,7 +134,7 @@ class Appointments extends Component {
               Starred
             </button>
           </div>
-          <ul className="each-appointment-item">
+          <ul className="appointment-items-container">
             {filteredAppointmentsList.map(eachAppointment => (
               <AppointmentItem
                 key={eachAppointment.id}

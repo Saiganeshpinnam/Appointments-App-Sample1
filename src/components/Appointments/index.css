@@ -60,13 +60,7 @@
   margin-top: 12px;
   border-width: 0px;
 }
-.each-appointment-item {
-  border-style: solid;
-  height: 320px;
-  width: 50%;
-  margin: 5px;
-  padding: 5px;
-}
+
 .input-heading {
   color: #b5b7c4;
   font-family: 'Roboto';
@@ -116,6 +110,10 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+  }
+  .appointment-items-container {
+    display: flex;
+    flex-direction: row;
   }
   .each-appointment-item {
     height: 70px;
